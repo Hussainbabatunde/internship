@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+  }
+  .App{
+    background-color: lightgray;
+    display: flex;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  .sec1{
+    width: 65%;
+    background-color: white;
+    box-shadow: 5px 0 5px -2px gray;
+    padding: 5px 50px;
+  }
+  .billings{
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .image{
+    padding-top: 15px;
+    display: flex;
+    position: relative;
+  }
+  .HR{
+    position: absolute;
+    color: white;
+    background-color: #2b3d2c;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 3px 30px;
+    border-radius: 20px;
+  }
+  .leave{
+    position: absolute;
+    color: white;
+    background-color: #2b3d2c;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 3px 30px;
+    border-radius: 20px;
+  }
+  .payroll{
+    position: absolute;
+    color: white;
+    background-color: #2b3d2c;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 3px 30px;
+    border-radius: 20px;
+  }
+  .wordings{
+    margin-left: 25px;
+    margin-top: 23px;
+  }
+  .human{
+    font-size: 20px;
+  }
+  .manage{
+    font-size: 14px;
+  }
+  .pricing_space{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .money{
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 35%;
+  }
+  .cloudlet{
+    margin-top: 30px;
+    text-align: center;
+    color: darkblue;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0 1px 0 darkgray,
+    0 3px 0 darkgray,
+    0 3px 0 darkgray,
+    0 3px 0 darkgray,
+    0 3px 0 darkgray;
+  }
+  .industry{
+    text-align: center;
+    margin-top: 15px;
+  }
+  .modern{
+    text-align: center;
+  }
+  .paying{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .buttonpay{
+    margin-bottom: 30px;
+  }
+  .nairapay{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 1px 0 darkgray,
+    0 3px 0 darkgray,
+    0 3px 0 darkgray,
+    0 3px 0 darkgray,
+    0 3px 0 darkgray;
+  }
+  .employees{
+    text-align: center;
+    color: #a5a5a5;
+    margin-top: 10px;
+  }
+  .butpay{
+    border: none;
+    background-color: #7275f6;
+    color: white;
+    font-size: 18px;
+    padding: 5px 50px 15px 50px;
+    border-radius: 30px;
+  }
+  .triangle-up {
+      width: 0;
+      height: 10;
+      border-left: 93px solid transparent;
+      border-right: 93px solid transparent;
+      border-bottom: 20px solid #7275f6;
+    margin-left: 17px;
+  }
+  @media (max-width: 900px) {
+    .App{
+      flex-direction: column;
+    }
+    .sec1{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    .sec2{
+      width: 100%;
+      height: 60vh;
+    }
+  }
+  @media (max-width: 600px) {
+    .image{
+      flex-direction: column;
+    }
+  }
